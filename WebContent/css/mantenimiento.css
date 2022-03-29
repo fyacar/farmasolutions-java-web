@@ -1,0 +1,20 @@
+.enlacesImagen{
+    display: flex;
+    justify-content: space-around;
+    
+}
+.imgMantenimiento{
+    width: 200px;
+}
+
+figure{
+  /*  width: 30%;*/
+}
+
+.imgEnlaces{
+  /*  width: 30%; */
+}
+.divImg{
+    width: 240px;
+    display: inline-block;
+}

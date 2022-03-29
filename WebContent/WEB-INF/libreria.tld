@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<taglib>
+
+	<tlibversion>1.0</tlibversion>	
+	<jspversion>1.0</jspversion>	
+	<shortname>tools</shortname>	
+	
+	
+	<tag>			
+		<name>Menu</name>		
+		<tagclass>etiquetas.MenuTag</tagclass>	
+		<bodycontent>empty</bodycontent>			
+		<info>Muestra las opciones del menú Principal</info>			
+		<!--Información del atributo-->		
+		<attribute>
+			<!--debe tener el mismo nombre que declaramos en la clase Tag-->
+			<name>tipo</name>
+			<requiered>false</requiered>
+			<!--Puede recibir valores con expresiones?-->		
+			<rtexprvalue>true</rtexprvalue>
+			</attribute>					
+	</tag>	
+	
+	<tag>			
+		<name>Footer</name>			
+		<tagclass>etiquetas.FooterTag</tagclass>	
+		<bodycontent>empty</bodycontent>			
+		<info>Muestra el Footer</info>	
+	</tag>
+	
+	<tag>	
+		<name>cboTipoUsuario</name>	
+		<tagclass>etiquetas.ComboTipoUsuarioTag</tagclass>	
+		<bodycontent>empty</bodycontent>
+		<info>Carga la información de los tipos Usuario combo</info>	
+	</tag>
+	
+		
+	
+<tag>			
+			<name>comboCat</name>		
+			<tagclass>etiquetas.ComboCategoriaTag</tagclass>	
+			<bodycontent>empty</bodycontent>
+		Es una descripción de la etiqueta		
+			<info>Muestra las opciones del combo de Categorías</info>	
+</tag>
+
+<tag>			
+			<name>comboProveedores</name>		
+			<tagclass>etiquetas.ComboProveedorTag</tagclass>	
+			<bodycontent>empty</bodycontent>
+		Es una descripción de la etiqueta		
+			<info>Muestra las opciones del combo de Proveedores</info>	
+	</tag>
+	
+	
+	
+	
+	
+
+</taglib>

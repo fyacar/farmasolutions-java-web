@@ -1,0 +1,12 @@
+.tituloCuerpo{
+    margin-top: 0;
+}
+.subTituloCuerpo{
+    text-align: left;
+    font-size: 30px;
+    margin-left: 20px;
+    padding-left: 5px;
+    border-left: solid rgb(204, 180, 60);
+    
+}
+
